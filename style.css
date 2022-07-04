@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .orange{
     color: darkorange;
 }
-section{
+.flaxible-container{
     display: flex;
+    margin-bottom: 50px;
     
 }
 .container{
@@ -33,8 +37,20 @@ section{
     padding: 10px;
     margin-bottom: 100px;
 }
+.number{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .aa{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px rgba(92, 88, 89, 0.913);
+    padding-left: 20px;
 }
